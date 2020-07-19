@@ -17,6 +17,7 @@ import {
   ListSubheader,
   Grid,
   Hidden,} from '@material-ui/core';
+import { useTheme } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 
@@ -36,6 +37,7 @@ import AddCircle from '@material-ui/icons/AddCircle';
 const useStyles = makeStyles((theme) => ({
   root: {
     height: '100vh',
+    backgroundColor: theme.palette.background.dark,
   },
   appBar: {
     boxShadow: 'none',
@@ -161,8 +163,9 @@ const videos = [
 ];
 
 
-function Home() {
+function Home(darkMode, setDarkMode) {
 const classes = useStyles();
+const theme = useTheme();
 
   return (
       <div className={classes.root}>
@@ -171,23 +174,23 @@ const classes = useStyles();
               <Toolbar>
                   <IconButton
                     className={classes.menuIcon}
-                    color='inherit'
+                    
                   >
                    <MenuIcon />
                   </IconButton>
-                  <img src="./images/preto.png" alt='logo' className={classes.logo}/>          
+                  <img src={theme.palette.type === 'dark' ? "./images/branco.png" : "./images/preto.png"} alt='logo' className={classes.logo}/>          
 
                   <div className={classes.grow} />
 
-                  <IconButton className={classes.icons} color='inherit'>
+                  <IconButton className={classes.icons} >
                    <VideoCall />
                   </IconButton>
 
-                  <IconButton className={classes.icons} color='inherit'>
+                  <IconButton className={classes.icons} >
                    <AppsIcon />
                   </IconButton>
 
-                  <IconButton className={classes.icons} color='inherit'>
+                  <IconButton className={classes.icons} >
                    <MoreVert />
                   </IconButton>
 
