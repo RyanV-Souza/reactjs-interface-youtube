@@ -81,8 +81,8 @@ const videos = [
   {
     id: 1,
     title:
-      'FEED DO USUÁRIO | Criando uma Rede Social com React.js e .NET Core #29',
-    channel: 'Lucas Nhimi',
+      'Samurai Champloo',
+    channel: 'Ryan Vieira',
     views: '11 mi de visualizações',
     date: 'há 1 semana',
     avatar: '/images/avatar.jpeg',
@@ -91,8 +91,8 @@ const videos = [
   {
     id: 2,
     title:
-      'COMO MELHORAR SEU CODIGO JAVASCRIPT (ESLINT + PRETTIER + EDITORCONFIG) | Dicas e Truques #02',
-    channel: 'Lucas Nhimi',
+      'Berserk',
+    channel: 'Ryan Vieira',
     views: '957 mil visualizações',
     date: 'há 1 semana',
     avatar: '/images/avatar.jpeg',
@@ -101,8 +101,8 @@ const videos = [
   {
     id: 3,
     title:
-      'CONTEXT API NO EDITOR DE POST | Criando uma Rede Social com React.js e .NET Core #27',
-    channel: 'Lucas Nhimi',
+      'Clairo - Hello?',
+    channel: 'Ryan Vieira',
     views: '106 mil visualizações',
     date: 'há 1 semana',
     avatar: '/images/avatar.jpeg',
@@ -111,28 +111,28 @@ const videos = [
   {
     id: 4,
     title:
-      'CONTEXT API NO EDITOR DE POST | Criando uma Rede Social com React.js e .NET Core #27',
-    channel: 'Lucas Nhimi',
-    views: '5,6 mi de visualizações',
-    date: 'há 1 semana',
+      'Clairo - Heaven (Skate Kitchen Soundtrack)',
+    channel: 'Ryan Vieira',
+    views: '10,6 mi de visualizações',
+    date: 'há 3 semanas',
     avatar: '/images/avatar.jpeg',
     thumb: '/images/thumb4.png',
   },
   {
     id: 5,
     title:
-      'EDITOR DE POST COM MARKDOWN 2 | Criando uma Rede Social com React.js e .NET Core #26',
-    channel: 'Lucas Nhimi',
+      '97special x shogonodo － ocean melody ',
+    channel: 'Ryan Vieira',
     views: '2,2 mi de visualizações',
-    date: 'há 1 semana',
+    date: 'há 2 semanas',
     avatar: '/images/avatar.jpeg',
     thumb: '/images/thumb5.png',
   },
   {
     id: 6,
-    title: 'COMO MIGRAR PARA REACT HOOKS | Dicas e Truques #01',
-    channel: 'Lucas Nhimi',
-    views: '233 mil visualizações',
+    title: 'Wallows - Are You Bored Yet? (feat. Clairo) [Official Video]',
+    channel: 'Ryan Vieira',
+    views: '5,5 mi de visualizações',
     date: 'há 1 semana',
     avatar: '/images/avatar.jpeg',
     thumb: '/images/thumb6.png',
@@ -140,8 +140,8 @@ const videos = [
   {
     id: 7,
     title:
-      'PRÉ-REQUISITOS | Criando uma Rede Social com React.js e .NET Core #01',
-    channel: 'Lucas Nhimi',
+      'Wallows - Ok (Official Lyric Video) ',
+    channel: 'Ryan Vieira',
     views: '118 mil visualizações',
     date: 'há 1 semana',
     avatar: '/images/avatar.jpeg',
@@ -150,8 +150,8 @@ const videos = [
   {
     id: 8,
     title:
-      'GIT E GITHUB | Criando uma Rede Social com React.js e .NET Core #04',
-    channel: 'Lucas Nhimi',
+      'Whitechapel - Tremors',
+    channel: 'Ryan Vieira',
     views: '1,9 mi de visualizações',
     date: 'há 1 semana',
     avatar: '/images/avatar.jpeg',
